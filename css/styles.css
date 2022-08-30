@@ -1,0 +1,113 @@
+/* Elementos HTML */
+h1 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+  padding-bottom: 10%;
+}
+
+h2{
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  font-weight: bolder;
+}
+
+h3{
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+p{
+  color: #8f8f8f;
+  font-family: "Montserrat";
+}
+
+/* Tittle Section */
+
+#title {
+  background-color: #ff4c68;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  margin:0 18px;
+}
+
+.img-celu-perro{
+  transform: rotate(30deg);
+  width: 60%;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+.btn-descargas{
+  margin: 5% 3% 0 0 ;
+}
+
+.iconos {
+  color: #ef8172;
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+.iconos:hover{
+  color: #ff4c68;
+}
+
+/* Seccion Descripcion */
+
+.secciones{
+  text-align: center;
+  padding: 10% 5%;
+}
+
+/* Testimonios */
+
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff;
+}
+
+.test-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* Seccion de Prensa */
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-img{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Seccion Precios */
+
+#pricing{
+  padding: 100px;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
