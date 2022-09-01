@@ -44,6 +44,8 @@ p{
 .img-celu-perro{
   transform: rotate(30deg);
   width: 60%;
+  position: relative;
+  z-index: 0;
 }
 
 .container-fluid{
@@ -64,11 +66,33 @@ p{
   color: #ff4c68;
 }
 
+@media (max-width: 1028px) {
+
+  #title{
+    text-align: center;
+  }
+
+  .img-celu-perro{
+    transform: rotate(0);
+    position: static;
+  }
+
+
+}
+
 /* Seccion Descripcion */
+
+#features{
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  bottom: 150px;
+  padding-bottom: 0;
+}
 
 .secciones{
   text-align: center;
-  padding: 10% 5%;
+  padding: 5% 5% 0;
 }
 
 /* Testimonios */
@@ -110,4 +134,37 @@ p{
 
 .pricing-col {
   padding: 3% 2%;
+}
+
+/* Seccion Llamada a la Accion */
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+  color: #fff;
+}
+
+.cta-title{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 2.5rem;
+  margin-bottom: 7%;
+}
+
+.btn-cta{
+  margin: auto 2%;
+}
+
+/* Pie de Pagina */
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+  line-height: 1.5;
+}
+
+.foot-icon {
+  margin: auto 10px 10px;
 }
